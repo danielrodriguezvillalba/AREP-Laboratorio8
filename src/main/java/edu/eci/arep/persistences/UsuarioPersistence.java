@@ -20,10 +20,11 @@ public class UsuarioPersistence {
     
     RouletteDB rb = new RouletteDB(); 
 
-    
+
     @Override
     public void realizaConexion() throws RoulettePersistenceException {
         rb.realizaConexion();
+        
     }
 
     public void insertarUsuario(Usuario user) {
