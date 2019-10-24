@@ -19,6 +19,7 @@ import org.springframework.stereotype.Service;
 public class UsuarioPersistence {
     
     RouletteDB rb = new RouletteDB(); 
+
     
     @Override
     public void realizaConexion() throws RoulettePersistenceException {
